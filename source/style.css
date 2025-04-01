@@ -1,5 +1,5 @@
 body{
-    padding: 100px;   
+    padding-bottom: 100px;   
 }
 .card{
     background-color: rgba(53, 53, 53, 0.185);
@@ -7,22 +7,65 @@ body{
     width: 19rem;
     color: rgb(255, 255, 255);
 }
-#Profil{
-    margin: 100px;
+
+/* Profil */
+.hero-box .box p{
+    width: 500px;
+    
+} 
+
+.hero-box .box-foto{
+    padding-right: 10px;
 }
 
-#AboutMe{
-    margin: 200px;
+.hero-box .box img {
+    width: 400px;
+    
 }
-#Project{
-    margin: 200px;
+
+
+@media (max-width: 992px){   
+    
+    .hero-box .box p{
+        font-size: 14px;
+        width: 300px;
+        
+    } 
+    
+    
+    .hero-box .box img {
+        width: 300px;
+        
+    }
+
+
 }
-#Study{
-    margin: 200px;
+@media (max-width: 762px){
+    .box {
+        text-align: center;
+    }
+    .hero-box .box p{
+        text-align: center;
+        width: 100%;
+        
+    } 
+    
 }
-#Organization{
-    margin: 200px;
+/* Akhir Profil */
+
+/* About */
+.About-Box p{
+    text-align: center;
 }
+/* About */
+
 .FormContact{
     border: 1px solid rgba(255, 255, 255, 0.678);
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+p{
+    text-align: justify;
 }
