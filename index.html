@@ -11,6 +11,9 @@
     <!-- CSS Lokal -->
      <link rel="stylesheet" href="source/style.css">
 
+     <!-- Cdn Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Portofolio | Almajid</title>
     
   </head>
@@ -47,7 +50,7 @@
     <!-- Akhir Navbar  -->
 
     <!-- Profil -->
-      <section class="hero text-white">
+      <section class="hero text-white" id="Profil">
         <div class="container">
             <div class="hero-box d-flex align-item-center justify-content-between flex-md-row flex-column gap-md-0 gap-3">
                 <div class="box pt-5 align-self-center">
@@ -65,7 +68,7 @@
      <!-- Akhir Profil -->
 
      <!-- About Me -->
-      <section id="About">
+      <section id="AboutMe">
         <div class="container">
             <div class="About-Box text-center text-white">
                 <h2 class="fw-bold mb-4">About Me</h2>
@@ -78,197 +81,158 @@
     
      <!-- Akhir About Me -->
 
-     <!-- Study -->
-      <section id="Study">
-        <div class="container">
-            <h2 class="fw-bold mb-4 text-white text-center ">Study</h2>
-            <div class="abot-box d-flex justify-content-center flex-md-row flex-column gap-md-0 gap-3">
-                <div class="box">
-                    <div class="card text-light shadow-lg "  >
-                        <img src="source/image/sma.png" class="card-img-top p-3 align-self-center" alt="Logo SMA" style="width: 175px;">
-                        <div class="card-body">
-                            <h2 class="card-tittle">SMAN Glenmore</h2>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+     <!-- Project -->
+      <section id="Project">
+        <div class="container pb-3 text-white text-center">
+            <div class="Project-box">
+              <h2 class="fw-bold mb-3 text-center">Projek</h2>
+              <p class="lh-md mb-3 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa ad quam ullam iusto hic at aperiam tenetur aut corporis laborum veniam modi deserunt, magni quaerat.</p> 
+              <div class="row justify-content-center pt-4 gap-4">
+                  <div class="col col-md-5 col-12 shadow p-3 rounded-3 "  data-aos="fade-right" data-aos-duration="1000">
+                      <img  src="source/image/Python.png" alt="projek" width="50%">
+                      <h4>Digiparking</h4>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam dolorem animi quisquam consectetur quasi suscipit adipisci dicta ipsa dolor.</p>
+                      <div>
+                          <a href="https://github.com/tunggulalmajid" target="_blank" class="btn btn-outline-light d-block" >View Project</a>
                         </div>
-                <div class="box">
-                    <div class="card text-light shadow-lg"  >
-                        <img src="source/image/sma.png" class="card-img-top p-3 align-self-center" alt="Logo SMA" style="width: 175px;">
-                        <div class="card-body">
-                            <h2 class="card-tittle">SMAN Glenmore</h2>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="col col-md-5 col-12 shadow p-3 rounded-3" data-aos="fade-left" data-aos-duration="1000">
+                        <!-- <img src="assets/images/projek2.webp" alt="projek" width="100%"> -->
+                        <i class="fa-solid fa-code pb-3"></i>
+                        <h4>Web Company Profile</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam dolorem animi quisquam consectetur quasi suscipit adipisci dicta ipsa dolor.</p>
+                        <div>
+                            
+                            <a href="https://github.com/tunggulalmajid" target="_blank" class="btn btn-outline-light d-block" >View Project</a>
+                        </div>
+                    </div>
+                    <div class="col col-md-5 col-12 shadow p-3 rounded-3">
+                        <img src="source/image/Python.png" alt="projek" width="50%" data-aos="fade-right" data-aos-duration="1000">
+                        <h4>To Do List</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam dolorem animi quisquam consectetur quasi suscipit adipisci dicta ipsa dolor.</p>
+                        <div>
+                            
+                            <a href="https://github.com/tunggulalmajid" target="_blank" class="btn btn-outline-light d-block" >View Project</a>
+                        </div>
+                    </div>
+                    <div class="col col-md-5 col-12 shadow p-3 rounded-3 "data-aos="fade-left" data-aos-duration="1000">
+                        <img src="source/image/Python.png" alt="projek" width="50%" >
+                        <h4>Konversi Mata Uang</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam dolorem animi quisquam consectetur quasi suscipit adipisci dicta ipsa dolor.</p>
+                        <div>        
+                            <a href="https://github.com/tunggulalmajid" target="_blank" class="btn btn-outline-light d-block" >View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </section>
+      <!-- Akhir Project -->
+      
+      <!-- Organisasi -->
+      <section id="Organization">
+          <div class="container text-white text-center">
+            <div class="Organization-box">
+                <div class="row justify-content-center pt-4 gap-4">
+                    <h2 class="fw-bold mb-3 text-center">Organization</h2>
+                    <p class="lh-md mb-3 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa ad quam ullam iusto hic at aperiam tenetur aut corporis laborum veniam modi deserunt, magni quaerat.</p> 
+                        <div class="col col-md-5 col-12 shadow p-3 rounded-3 "data-aos="fade-left" data-aos-duration="1000">
+                            <img src="source/image/satgas.png" alt="projek" width="80%" >
+                            <h4>Satgas Smansamore</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam dolorem animi quisquam consectetur quasi suscipit adipisci dicta ipsa dolor.</p>
+                        </div>
+                        <div class="col col-md-5 col-12 shadow p-3 rounded-3 "data-aos="fade-left" data-aos-duration="1000">
+                            <img class="my-4 p-2 laos" src="source/image/logo LAOS.png" alt="projek" width="60%" >
+                            <h4 class="mt-4">Linux And Open Source</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam dolorem animi quisquam consectetur quasi suscipit adipisci dicta ipsa dolor.</p>
                         </div>
                 </div>
-                </div>
-                </div>
-            </div> 
+            </div>
         </div>
-      </section>
-
-      <!-- <section class="bg-dark text-light pb-5 " id="Study">
-          <div class="container-md border">
-            <div class="row pb-4">
-                <div class="col-md">
-                    <h2>STUDY</h2>
-                </div>
-            </div>
-            <div class="row border">
-                <div class="col-md-6  border">
-                    <div class="card text-light shadow-lg"  >
-                        <img src="source/image/sma.png" class="card-img-top p-3 align-self-center" alt="Logo SMA" style="width: 175px;">
-                        <div class="card-body">
-                            <h2 class="card-tittle">SMAN Glenmore</h2>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </section>
+    
+    <!-- Akhir Organisasi -->
+    
+    <!-- Contact -->
+     <section class="text-light " id="ContactMe">
+                <div class="container ">
+                    <div class="contact-box">
+                        <div class="row ">
+                            <h2 class="fw-bold mb-3 text-center">Contact Me</h2>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6  border">
-                    <div class="card text-light shadow-lg"  >
-                        <img src="source/image/unej.png" class="card-img-top p-2 align-self-center" alt="Logo UNEJ" style="width: 200px;">
-                        <div class="card-body">
-                            <h2 class="card-tittle">Universitas Jember</h2>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                </div>
-            </div>
-          </div>
-      </section> -->
-      <!-- Akhir Study -->
-
-      <!-- Project -->
-       <!-- <section class="bg-dark text-light pb-5 justify-content-evenly" id="Project">
-            <div class="container border">
-                <div class="row justify-content-center text-center pb-4">
-                    <div class="col pb-4">
-                        <h2>PROJECT</h2>
-                    </div>
-                    <div class="row justify-content-center text-center border">
-                        <div class="col-xxl-3 justify-content-center border">
-                            <div class="card text-light shadow-lg border" >
-                                <img src="source/image/Python.png" class="card-img-top p-3 align-self-center" alt="Logo SMA" style="width: 150px;">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Python</h2>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="" class="btn btn-outline-light d-block" >View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 justify-content-center border">
-                            <div class="card text-light shadow-lg " >
-                                <img src="source/image/Python.png" class="card-img-top p-2 align-self-center" alt="Logo UNEJ" style="width: 150px;">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Python</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="" class="btn btn-outline-light d-block" >View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 justify-content-center border">
-                            <div class="card text-light shadow-lg " >
-                                <img src="source/image/Python.png" class="card-img-top p-2 align-self-center" alt="Logo UNEJ" style="width: 150px;">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Python</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="" class="btn btn-outline-light d-block" >View</a>
-                                </div>
+                        <div class="row justify-content-center ">
+                            <div class="col shadow col-12 FormContact p-5">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="Nama" class="form-label">Nama</label>
+                                      <input type="text" class="form-control" id="Nama" aria-describedby="Nama">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="Email" class="form-label">Email</label>
+                                      <input type="email" class="form-control" id="Email" aria-describedby="Email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Pesan" class="form-label">Pesan</label>
+                                        <textarea class="form-control" id="Pesan" rows="3"></textarea>
+                                      </div>
+                                    
+                                    <button type="submit" class="btn btn-outline-light mt-3" >Kirim</button>
+                                  </form>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> -->
-            <!-- Akhir Project -->
-            
-            <!-- Organization -->
-            <!-- <section class="bg-dark text-light pb-5 " id="Organization">
-                <div class="container border">
-                    <div class="row">
-                        <div class="col text-center pb-4">
-                            <h2>ORGANIZATION</h2>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center text-center border">
-                        <div class="col-xxl-3 ">
-                            <div class="card text-light shadow-lg" style="width: 20rem;" >
-                                <img src="source/image/satgas.png" class="card-img-top p-3 align-self-center" alt="Logo SMA">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Satgas Smansamore</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 border">
-                            <div class="card text-light shadow-lg " style="width: 20rem;" >
-                                <img src="source/image/logo LAOS.png" class="card-img-top p-5 align-self-center" alt="Logo UNEJ " style="padding: 10px;">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Linux and Open source</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Organization -->
-
-
-        <!-- Contact -->
-            <!-- <section class="text-light " id="ContactMe">
-                <div class="container border">
-                    <div class="row border">
-                        <div class="col text-center pb-4 ">
-                            <h2>Contact Me</h2>
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-center border">
-                        <div class="col-md-9 FormContact p-5">
-                            <form>
-                                <div class="mb-3">
-                                  <label for="Nama" class="form-label">Nama</label>
-                                  <input type="text" class="form-control" id="Nama" aria-describedby="Nama">
-                                </div>
-                                <div class="mb-3">
-                                  <label for="Email" class="form-label">Email</label>
-                                  <input type="email" class="form-control" id="Email" aria-describedby="Email">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="Pesan" class="form-label">Pesan</label>
-                                    <textarea class="form-control" id="Pesan" rows="3"></textarea>
-                                  </div>
-                                
-                                <button type="submit" class="btn btn-outline-light mt-3">Kirim</button>
-                              </form>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-        <!-- Akhir Contact -->
+            </section>
+    <!-- Akhir Contact -->
+    
 
         <!-- Footer -->
-         
+            <footer>
+                <div class="container">
+                    <div class="footer-box">
+                        <h3 class="fw-bold text-white">Seorang Biasa Yang Ingin terus Belajar</h3>
+                        <div class="col col-md-5 col-12 d-flex flex-column gap-2 align-self-start pb-3">
+                            <h4 class="fw-bold text-white">Connect With Me :</h4>
+                            <a class="text-white text-decoration-none" href="#">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-solid fa-envelope mt-1"></i>
+                                    sebuahlawos@gmail.com
+                                </p>
+                            </a>
+                            <a class="text-white text-decoration-none" href="#">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-brands fa-github"></i>
+                                    tunggulalmajid
+                                </p>
+                            </a>
+                            <a class="text-white text-decoration-none" href="#">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    t.abdlmajd_
+                                </p>
+                            </a>
+                            <a class="text-white text-decoration-none" href="#">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    t.abdlmajd_
+                                </p>
+                            </a>
+                            <a class="text-white text-decoration-none" href="#">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-solid fa-location mt-1"></i>
+                                    Kabupaten Jember, Provinsi Jawa Timur, Indonesia
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="copyright text-center text-white pt-5">
+                        <p>&copy; Created By <span class="fw-bold">TunggulAlMajid</span> 2025</p>
+                    </div>
+                </div>
+            </footer>
         <!-- Akhir Footer -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
