@@ -11,34 +11,45 @@
     <!-- CSS Lokal -->
      <link rel="stylesheet" href="source/style.css">
 
-    <title>Almajeed | Tunggul</title>
+    <!-- animate -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- animate aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- Cdn Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portofolio | Almajid</title>
     
   </head>
   <body class="bg-dark">
     
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-lg fixed-top py-3 animate__animated animate__fadeInDown">
         <div class="container">
-          <a class="navbar-brand fs-4" href="#">Tunggul | Almajid</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand fs-4 text-white fw-bold" href="#Profil">Portofolio | Almajid</a>
+          <button class="navbar-toggler bg-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Profil">Home</a>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4 ">
+              <li class="nav-item text-white">
+                <a class="nav-link text-white" href="#Profil">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#AboutMe">About Me</a>
+                <a class="nav-link text-white" href="#AboutMe">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Project">Project</a>
+                <a class="nav-link text-white" href="#Project">Project</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Organization">Organization</a>
+                <a class="nav-link text-white" href="#Organization">Organization</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ContactMe">Contact</a>
+                <a class="nav-link text-white" href="#ContactMe">Contact</a>
               </li>
             </ul>
           </div>
@@ -47,207 +58,214 @@
     <!-- Akhir Navbar  -->
 
     <!-- Profil -->
-     <section class="bg-dark text-light" id="Profil">
-        <div class="container-md">
-            <div class="row">
-                <div class="col-md-7 align-self-center text-center">
-                    <h1>Tunggul Abdul Majid</h1>
-                    <p >STUDENT | IT ETHUSIAST</p>
-                    <button type="button" class="btn btn-outline-light me-2">Download CV</button>
-                    <button type="button" class="btn btn-outline-light" href="#Project">Projects</button>
+      <section class="hero text-white" id="Profil">
+        <div class="container">
+            <div class="hero-box d-flex align-item-center justify-content-between flex-md-row flex-column gap-md-0 gap-3">
+                <div class="box pt-5 align-self-center animate__animated animate__fadeInLeft animate__delay-1s">
+                    <h2 class="fw-bold mb-3">Tunggul Abdul Majid</h2>
+                    <p class="lh-md mb-4">Ungraduated Student | IT Enthusiast | Web Developer Enthusiast | Mobile Developer Enthusiast</p>
+                    <a href="" class="btn btn-outline-light text-light " >Download CV</a>
+                    <a href="#Project" class="btn btn-outline-light text-light"> View Project</a>
                 </div>
-                <div class="col-md-5 align-self-start mb-5">
-                    <img class="justify-content-cenet mb-5 rounded-circle" src="source/image/CobaProfil.png" alt="" width="600">
+                <div class="box animate__animated animate__fadeInRight animate__delay-1s">
+                    <img class="mb-5" src="source/image/CobaProfil.png" alt="">
                 </div>
-
             </div>
         </div>
-     </section>
+      </section>
+     <!-- Akhir Profil -->
 
      <!-- About Me -->
-     <section class="bg-dark text-light pt-5 " id="AboutMe">
-        <div class="container-md">
-            <div class="row-md">
-                <div class="col text-center pb-3"> 
-                    <h2>ABOUT ME</h2>
+      <section id="AboutMe" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="About-Box text-center text-white">
+                <h2 class="fw-bold mb-4">About Me</h2>
+                <p class="lh-md ">
+                    Saya adalah seorang Mahasiswa Program Studi Teknologi Informasi Universitas Jember Angkatan 2024. Saya memiliki minat dalam bidang Fullstack Web Developer dan juga Mobile Developer.
+                    Saya memiliki mimpi untuk menjadi seorang developer yang handal dan saya yakin bahwa mimpi itu akan terwujud nanti. Mimpi tersebut tentu tidak terwujud dengan sendirinya, dengan kerja keras
+                    dan konsistensi serta semangat, perlahan saya akan menggapai mimpi itu.   
+                </p>
+            </div>
+        </div>
+      </section>
+    
+     <!-- Akhir About Me -->
+
+     <!-- Project -->
+      <section id="Project">
+        <div class="container pb-3 text-white text-center">
+            <div class="Project-box">
+              <h2 class="fw-bold mb-3 text-center" data-aos="fade-up" data-aos-duration="1000">Projek</h2>
+              <p class="lh-md mb-3 text-center" data-aos="fade-up" data-aos-duration="1000">
+                Beberapa Projek yang pernah saya buat, terdapat projek yang dibuat untuk menyelesaikan tugas mata kuliah, projek yang dibuat hanya untuk senang senang maupun projek yang dibuat untuk belajar tools baru.
+                Semua Projek itu berharga, proses awal dari sebuah kesuksesan adalah terus belajar dan terus berlatih
+              </p> 
+              <div class="row justify-content-center pt-4 gap-4">
+                  <div class="col col-md-5 col-12 shadow p-3 rounded-3 "  data-aos="fade-right" data-aos-duration="2000">
+                      <img  src="source/image/Python.png" alt="projek" width="50%">
+                      <h4>Digiparking</h4>
+                      <p>
+                        Sebuah Project yang dibuat untuk memenuhi tugas mata kuliah Algoritma dan Pemrograman, Project berbasis Console dengan menggunakan Python dan database berupa file csv.
+                        Projek ini diambil dari studi kasus tempat Parkir yang terdapat dalam sebuah stasiun.
+                      </p>
+                      <div>
+                          <a href="https://github.com/tunggulalmajid/DIGIPARKING" target="_blank" class="btn btn-outline-light d-block" >View Project</a>
+                        </div>
+                    </div>
+                    <div class="col col-md-5 col-12 shadow p-3 rounded-3" data-aos="fade-left" data-aos-duration="2000">
+                        <!-- <img src="assets/images/projek2.webp" alt="projek" width="100%"> -->
+                        <i class="fa-solid fa-code pb-3"></i>
+                        <h4>Web Company Profile</h4>
+                        <p>
+                            Sebuah Project yang digunakan untuk belajar mengenai tools baru berupa framework css yaitu bootstrap. website ini hanya memakai html, css, dan bootstrap saja tanpa menggunakan java script.
+                            Project ini mengambil studi kasus organisasi saya sendiri yaitu ukm laos. 
+                        </p>
+                        <div>
+                            <a href="https://github.com/tunggulalmajid/tunggullawos.github.io" target="_blank" class="btn btn-outline-light d-block" >View Project</a>
+                        </div>
+                    </div>
+                    <div class="col col-md-5 col-12 shadow p-3 rounded-3" data-aos="fade-right" data-aos-duration="2000">
+                        <img src="source/image/Python.png" alt="projek" width="50%" >
+                        <h4>To Do List</h4>
+                        <p>
+                            Sebuah Project yang dibuat untuk belajar mengenai database berupa file csv yang di implementasikan dengan menggunakan bahasa pemrograman python.
+                            Project ini berfokus pada pencatatan tugas kuliah mahasiswa. Project ini sudah memiliki fitur CRUD didalam nya.
+                        </p>
+                        <div>
+                            <a href="https://github.com/tunggulalmajid/ToDoList" target="_blank" class="btn btn-outline-light d-block" >View Project</a>
+                        </div>
+                    </div>
+                    <div class="col col-md-5 col-12 shadow p-3 rounded-3 "data-aos="fade-left" data-aos-duration="2000">
+                        <img src="source/image/Python.png" alt="projek" width="50%" >
+                        <h4>Tebak Angka</h4>
+                        <p>
+                            Sebuah Project yang dibuat hanya untuk senang senang dan juga belajar mengenai konsep pemrograman dengan menggunakan bahasa Python, Project ini dapat memiliki sebuah angka random yang akan ditebak oleh usernya
+                           Project ini terbatas hanya dalam console dan tidak memiliki database file maupun relational
+                        </p>
+                        <div>        
+                            <a href="https://github.com/tunggulalmajid/project-tebak-angka-" target="_blank" class="btn btn-outline-light d-block" >View Project</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum ea distinctio? Assumenda corporis unde, animi officia possimus, saepe recusandae aliquam laudantium amet corrupti accusamus.</p>
+      </div>
+    </section>
+      <!-- Akhir Project -->
+      
+      <!-- Organisasi -->
+      <section id="Organization">
+          <div class="container text-white text-center">
+            <div class="Organization-box">
+                <div class="row justify-content-center pt-4 gap-4">
+                    <h2 class="fw-bold mb-3 text-center" data-aos="fade-up" data-aos-duration="1000">Organization</h2>
+                    <p class="lh-md mb-3 text-center" data-aos="fade-up" data-aos-duration="1000">
+                        Sebuah Organisai yang memberikan sebuah pengalaman yang sangat berarti, tampat untuk berkembang dan belajar untuk menjadi lebih baik
+                    </p> 
+                        <div class="col col-md-5 col-12 shadow p-3 rounded-3 " data-aos="fade-right" data-aos-duration="2000">
+                            <img src="source/image/satgas.png" alt="projek" width="80%" >
+                            <h4 class="fw-bold">Satgas Smansamore</h4>
+                            <p>
+                                Sebuah Organisasi Kedisiplinan yang terdapat di SMA Glenmore. Saya bergabung di periode kepengurusan tahun 2022 - 2023 dengan jabatan Ketua Umum. 
+                            </p>
+                        </div>
+                        <div class="col col-md-5 col-12 shadow p-3 rounded-3 "data-aos="fade-left" data-aos-duration="2000">
+                            <img class="my-4 p-2 laos" src="source/image/logo LAOS.png" alt="projek" width="60%" >
+                            <h4 class="mt-4 fw-bold">Linux And Open Source</h4>
+                            <p>
+                                Organisasi Yang berfokus terhadap Linux dan Open Source serta Teknologi yang berada dalam Fakultas Ilmu Komputer Universitas Jember. Bergabung pada periode kepengurusan 2025 dan menjabat sebagai Staff Divisi Pemrograman
+                            </p>
+                        </div>
                 </div>
             </div>
         </div>
-     </section>
-     <!-- Akhir About Me -->
-
-     <!-- Study -->
-      <section class="bg-dark text-light p-5 " id="Study">
-          <div class="container">
-            <div class="row text-center pb-4">
-                <div class="col">
-                    <h2>STUDY</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-xxl-3 ">
-                    <div class="card text-light shadow-lg" style="width: 20rem;" >
-                        <img src="source/image/sma.png" class="card-img-top p-3 align-self-center" alt="Logo SMA" style="width: 175px;">
-                        <div class="card-body">
-                            <h2 class="card-tittle">SMAN Glenmore</h2>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </section>
+    
+    <!-- Akhir Organisasi -->
+    
+    <!-- Contact -->
+     <section class="text-light " id="ContactMe" data-aos="fade-up" data-aos-duration="1000">
+                <div class="container ">
+                    <div class="contact-box">
+                        <div class="row ">
+                            <h2 class="fw-bold mb-3 text-center" >Contact Me</h2>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3">
-                    <div class="card text-light shadow-lg" style="width: 20rem;" >
-                        <img src="source/image/unej.png" class="card-img-top p-2 align-self-center" alt="Logo UNEJ" style="width: 200px;">
-                        <div class="card-body">
-                            <h2 class="card-tittle">Universitas Jember</h2>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                </div>
-            </div>
-          </div>
-      </section>
-      <!-- Akhir Study -->
-
-      <!-- Project -->
-       <section class="bg-dark text-light p-5 justify-content-evenly" id="Project">
-            <div class="container">
-                <div class="row justify-content-center text-center pb-4">
-                    <div class="col pb-4">
-                        <h2>PROJECT</h2>
-                    </div>
-                    <div class="row justify-content-center text-center ">
-                        <div class="col-xxl-3 justify-content-center">
-                            <div class="card text-light shadow-lg" >
-                                <img src="source/image/Python.png" class="card-img-top p-3 align-self-center" alt="Logo SMA" style="width: 150px;">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Python</h2>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <button type="button" class="btn btn-outline-light" href="#Project">View</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 justify-content-center ">
-                            <div class="card text-light shadow-lg " >
-                                <img src="source/image/Python.png" class="card-img-top p-2 align-self-center" alt="Logo UNEJ" style="width: 150px;">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Python</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <button type="button" class="btn btn-outline-light" href="#Project">View</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 justify-content-center ">
-                            <div class="card text-light shadow-lg " >
-                                <img src="source/image/Python.png" class="card-img-top p-2 align-self-center" alt="Logo UNEJ" style="width: 150px;">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Python</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <button type="button" class="btn btn-outline-light" href="#Project">View</button>
-                                </div>
+                        <div class="row justify-content-center ">
+                            <div class="col shadow col-12 FormContact p-5">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="Nama" class="form-label">Nama</label>
+                                      <input type="text" class="form-control" id="Nama" aria-describedby="Nama">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="Email" class="form-label">Email</label>
+                                      <input type="email" class="form-control" id="Email" aria-describedby="Email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Pesan" class="form-label">Pesan</label>
+                                        <textarea class="form-control" id="Pesan" rows="3"></textarea>
+                                      </div>
+                                    
+                                    <button type="submit" class="btn btn-outline-light mt-3" >Kirim</button>
+                                  </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Akhir Project -->
-            
-            <!-- Organization -->
-            <section class="bg-dark text-light p-5 " id="Organization">
-                <div class="container">
-                    <div class="row">
-                        <div class="col text-center pb-4">
-                            <h2>ORGANIZATION</h2>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center text-center">
-                        <div class="col-xxl-3 ">
-                            <div class="card text-light shadow-lg" style="width: 20rem;" >
-                                <img src="source/image/satgas.png" class="card-img-top p-3 align-self-center" alt="Logo SMA">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Satgas Smansamore</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3">
-                            <div class="card text-light shadow-lg " style="width: 20rem;" >
-                                <img src="source/image/logo LAOS.png" class="card-img-top p-5 align-self-center" alt="Logo UNEJ " style="padding: 10px;">
-                                <div class="card-body">
-                                    <h2 class="card-tittle">Linux and Open source</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </section>
-        <!-- Organization -->
-
-
-        <!-- Contact -->
-            <section class="text-light " id="ContactMe">
-                <div class="container">
-                    <div class="row">
-                        <div class="col text-center pb-4">
-                            <h2>Contact Me</h2>
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-center ">
-                        <div class="col-md-9 FormContact p-5">
-                            <form>
-                                <div class="mb-3">
-                                  <label for="Nama" class="form-label">Nama</label>
-                                  <input type="text" class="form-control" id="Nama" aria-describedby="Nama">
-                                </div>
-                                <div class="mb-3">
-                                  <label for="Email" class="form-label">Email</label>
-                                  <input type="email" class="form-control" id="Email" aria-describedby="Email">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="Pesan" class="form-label">Pesan</label>
-                                    <textarea class="form-control" id="Pesan" rows="3"></textarea>
-                                  </div>
-                                
-                                <button type="submit" class="btn btn-outline-light mt-3">Kirim</button>
-                              </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        <!-- Akhir Contact -->
+    <!-- Akhir Contact -->
+    
 
         <!-- Footer -->
-         
+            <footer>
+                <div class="container">
+                    <div class="footer-box">
+                        <h3 class="fw-bold text-white">Seorang yang Senantiasa Belajar</h3>
+                        <div class="col col-md-5 col-12 d-flex flex-column gap-2 align-self-start pb-3">
+                            <h4 class="fw-bold text-white">Connect With Me :</h4>
+                            <a class="text-white text-decoration-none">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-solid fa-envelope mt-1"></i>
+                                    tunggulmajid@gmail.com
+                                </p>
+                            </a>
+                            <a class="text-white text-decoration-none" href="https://github.com/tunggulalmajid" target="_blank">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-brands fa-github"></i>
+                                    tunggulalmajid
+                                </p>
+                            </a>
+                            <a class="text-white text-decoration-none" href="https://www.linkedin.com/in/tunggulabdulmajid/" target="_blank">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    tunggulabdulmajid
+                                </p>
+                            </a>
+                            <a class="text-white text-decoration-none" href="https://www.instagram.com/t.abdlmajd_" target="_blank">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    t.abdlmajd_
+                                </p>
+                            </a>
+                            <a class="text-white text-decoration-none">
+                                <p class="m-0 d-flex align-item-center gap-2">
+                                    <i class="fa-solid fa-location mt-1"></i>
+                                    Kabupaten Jember, Provinsi Jawa Timur, Indonesia
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="copyright text-center text-white pt-5">
+                        <p>&copy; Created By <span class="fw-bold">TunggulAlMajid</span> 2025</p>
+                    </div>
+                </div>
+            </footer>
         <!-- Akhir Footer -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script>
+            AOS.init();
+          </script>
   </body>
 </html>

@@ -1,28 +1,164 @@
-body{
-    padding: 100px;   
-}
-.card{
-    background-color: rgba(53, 53, 53, 0.185);
-    border: 1px solid rgba(255, 255, 255, 0.678);
-    width: 19rem;
-    color: rgb(255, 255, 255);
-}
-#Profil{
-    margin: 100px;
+section{
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-#AboutMe{
-    margin: 200px;
+/* Nav */
+.nav-item{
+    opacity: 75%;
 }
-#Project{
-    margin: 200px;
+.nav-item:hover{
+    opacity: 100%;
 }
-#Study{
-    margin: 200px;
+/* Akhir Nav */
+
+/* Profil */
+.hero-box .box p{
+    width: 500px;
+    
+} 
+
+.hero-box .box-foto{
+    padding-right: 10px;
 }
-#Organization{
-    margin: 200px;
+
+.hero-box .box img {
+    width: 400px;
+    
 }
-.FormContact{
-    border: 1px solid rgba(255, 255, 255, 0.678);
+
+
+@media (max-width: 992px){   
+    
+    .hero-box .box p{
+        font-size: 14px;
+        width: 300px;
+        
+    } 
+    
+    
+    .hero-box .box img {
+        width: 300px;
+        
+    }
+
+
 }
+@media (max-width: 762px){
+    .box {
+        text-align: center;
+    }
+    .hero-box{
+        margin-top: -40px;
+    }
+    .hero-box .box p{
+        text-align: center;
+        width: 100%;
+    } 
+    
+}
+/* Akhir Profil */
+
+
+/* About */
+.About-Box p{
+    text-align: center;
+}
+/* About */
+/* Projek */
+.Project-box .col i{
+    font-size: 170px;
+    margin: 37px;
+}
+.Project-box .col{
+    border: 1px solid white;
+    
+}
+    
+@media (max-width:1000px){
+    .Project-box .col i{
+        font-size: 100px;
+        margin: 20px;
+    }
+    .Project-box .col {
+        width: 85%;
+    }
+
+}
+@media (max-width:500px){
+    .Project-box .col {
+        width: 75%;
+    }
+    .Project-box .col i{
+        font-size: 75px;
+        margin: 20px;
+    }
+
+}
+
+/* AkhirProjek */
+
+/*Organisasi*/
+.Organization-box .col {
+    border: 1px solid white;
+}
+
+
+
+@media (max-width:500px){
+    .Organization-box .col {
+        width: 75%;
+    }
+
+}
+/*Akhir Organisasi*/
+
+/* Contact */
+.contact-box button {
+    width: 175px;
+    font-weight: bold;
+}
+@media (max-width:500px){
+    .contact-box .col {
+        width: 75%;
+    }
+
+}
+/* Akhir Contact */
+
+/* Footer */
+footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+.footer-box i{
+    margin-top: 4px;
+}
+
+.footer-box a{
+    opacity: 75%;
+}
+.footer-box a:hover{
+    opacity: 100%;
+}
+/* Akhir Footer */
+
+/* Other */
+.hero-box{
+    margin-top: 100px;
+    margin-bottom: 190px;
+}
+.About-Box{
+    margin-bottom: 200px;
+}
+.Project-box{
+    margin-bottom: 200px;
+}
+.Organization-box{
+    margin-bottom: 300px;
+}
+.contact-box{
+    margin-bottom: 200px;
+}
+/* Other */
