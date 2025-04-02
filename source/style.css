@@ -3,7 +3,14 @@ section{
     padding-bottom: 50px;
 }
 
-
+/* Nav */
+.nav-item{
+    opacity: 75%;
+}
+.nav-item:hover{
+    opacity: 100%;
+}
+/* Akhir Nav */
 
 /* Profil */
 .hero-box .box p{
@@ -65,6 +72,7 @@ section{
 }
 .Project-box .col{
     border: 1px solid white;
+    
 }
     
 @media (max-width:1000px){
@@ -124,5 +132,33 @@ footer{
     padding-bottom: 20px;
     background-color: black;
 }
+.footer-box i{
+    margin-top: 4px;
+}
+
+.footer-box a{
+    opacity: 75%;
+}
+.footer-box a:hover{
+    opacity: 100%;
+}
 /* Akhir Footer */
 
+/* Other */
+.hero-box{
+    margin-top: 100px;
+    margin-bottom: 190px;
+}
+.About-Box{
+    margin-bottom: 200px;
+}
+.Project-box{
+    margin-bottom: 200px;
+}
+.Organization-box{
+    margin-bottom: 300px;
+}
+.contact-box{
+    margin-bottom: 200px;
+}
+/* Other */
